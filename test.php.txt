@@ -1,0 +1,11 @@
+<?php
+try {
+    $pdo = new PDO(
+        'sqlsrv:Server=shreyanshhotel.database.windows.net,1433;Database=hotel_checkin;TrustServerCertificate=yes',
+        'shreyanshdoshi',
+        '1!Arrow1980'
+    );
+    echo "✅ Connected to SQL Server successfully!";
+} catch (Exception $e) {
+    echo "❌ Connection failed: " . $e->getMessage();
+}
