@@ -3,7 +3,7 @@ import { encryptAadhaar } from '../utils/validators';
 
 //const BASE_URL =  'http://localhost/hotel-checkin';
 
-const BASE_URL =  'https://hotel-checkin-api-g8gwbqcnhsazd9b8.centralindia-01.azurewebsites.net';
+const BASE_URL = 'https://hotel-checkin-api-g8gwbqcnhsazd9b8.centralindia-01.azurewebsites.net';
 
 // ── Mock hotel data (replace with real API) ────────────────
 const MOCK_HOTELS = {

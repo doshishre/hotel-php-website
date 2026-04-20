@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 // ─── Config ───────────────────────────────────────────────────
 //const API = "http://localhost/hotel-checkin/api/staff-api.php";
 
-const API = "http://hotel-checkin-api-g8gwbqcnhsazd9b8.centralindia-01.azurewebsites.net/api/staff-api.php";
+const API = "https://hotel-checkin-api-g8gwbqcnhsazd9b8.centralindia-01.azurewebsites.net/api/staff-api.php";
 
 // ─── API Helpers ──────────────────────────────────────────────
 const getToken = () => localStorage.getItem("staff_token");
