@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 
-const API = "http://localhost/hotel-checkin/api/staff-api.php";
+const API = "https://hotel-checkin-api-g8gwbqcnhsazd9b8.centralindia-01.azurewebsites.net/api/staff-api.php";
 const getToken = () => localStorage.getItem("staff_token");
 
 const apiFetch = async (action, method = "GET", body = null, params = {}) => {
